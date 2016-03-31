@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // 1.创建一个CALayer层
+    // 1.创建一个CALayer层：layer不能与用户交互，如果需要交互应该用UIView
     CALayer *layer = [[CALayer alloc] init];
     
     // 2.设置layer的宽高位置
